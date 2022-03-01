@@ -1,5 +1,5 @@
 {% set name = "decopatch" %}
-{% set version = "1.4.9" %}
+{% set version = "1.4.10" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/decopatch-{{ version }}.tar.gz
-  sha256: b5882c8cf0d5b01d218b4e04f6762d07b3287420ea509706f59971c3d6fec56f
+  sha256: 957f49c93f4150182c23f8fb51d13bb3213e0f17a79e09c8cca7057598b55720
 
 build:
   noarch: python
